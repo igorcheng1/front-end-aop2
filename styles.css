@@ -1,0 +1,266 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo do site */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #d9534f;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main */
+main {
+  padding: 40px 20px;
+}
+    
+
+
+/* Seção de introdução */
+.introducao {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.introducao h2 {
+    font-size: 2em;
+    color: #d9534f;
+}
+
+.introducao p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Destaques */
+.destaques {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-right: 215px;
+}
+
+.destaque {
+    text-align: center;
+}
+
+.destaque a {
+    text-decoration: none;
+    color: #333;
+}
+
+.destaque img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.destaque .descricao {
+    font-size: 1.1em;
+    font-weight: bold;
+    max-width: 250px;
+    margin-left: 20px;
+}
+
+/* Conteúdo */
+.conteudo {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.conteudo h2 {
+    font-size: 2em;
+    color: #d9534f;
+}
+
+.conteudo p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.conteudo ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.conteudo ul li {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+.imagem-destaque {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #d9534f;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/* Página de receitas */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #fdfdfd;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+/* Navbar */
+.nav-bar ul {
+    display: flex;
+    justify-content: center;
+    background-color: #d9534f;
+    padding: 10px 0;
+}
+
+.nav-bar ul li {
+    margin: 0 15px;
+}
+
+.nav-bar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-bar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Informações principais */
+.info-receita {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.info-box {
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    width: 150px;
+}
+
+/* Layout Flex para Receita e Imagem */
+.main-receita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.conteudo-com-imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Receita */
+.receita {
+    flex: 1;
+    max-width: 700px;
+    text-align: left;
+    margin-bottom: 30px; 
+}
+
+h1 {
+    margin-bottom: 20px; 
+}
+
+h2 {
+    margin-top: 20px; 
+}
+h3 {
+    margin-top: 20px; 
+}
+h2 {
+    margin-bottom: 20px; 
+}
+h3 {
+    margin-bottom: 20px; 
+}
+.imagem-prato {
+    flex: 1;
+    max-width: 400px;
+    text-align: center;
+}
+
+.imagem-destaque {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 30px; 
+}
+
+/* Rodapé */
+.footer {
+    background-color: #d9534f;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+}
+
